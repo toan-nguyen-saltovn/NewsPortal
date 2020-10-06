@@ -1,0 +1,17 @@
+﻿#Project base color:
+ - Main color: 21, 67, 96
+ - Sub color: 41, 128, 185
+ - Login back color: 234, 242, 248
+ - Add color: 41, 128, 185
+ - Update color: 26, 188, 156
+ - Delete color: 192, 57, 43
+ - Reset color: 127, 140, 141
+ - Tags bgColor: 
+
+ #Main container panel size: 684, 461
+
+#Oracle connection:
+ - Right click on References and open Manage NuGet Packages
+ - Find and install Oracle.ManagedDataAccess on Browse Tab
+ - Create connection string in App.config
+ - ConnectionStrings: Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl1)));User Id=username;Password=password;

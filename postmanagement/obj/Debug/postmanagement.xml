@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+postmanagement
+</name>
+</assembly>
+<members>
+<member name="T:postmanagement.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.back24px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.list32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.login128px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.logout32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.password32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.search24px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.search32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:postmanagement.My.Resources.Resources.user32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:postmanagement.NewsDetail.InitDisp(System.Int32)">
+ <summary>
+ InitDisp(0:Initial display 1:View detail)
+ </summary>
+ <param name="mode">0:Initial display 1:View detail</param>
+</member>
+<member name="M:postmanagement.NewsDetail.NewsDataControl(System.String,System.Int32)">
+ <summary>
+ 0:Insert, 1:Update, 2:Delete News
+ </summary>
+ <param name="sqlStr"></param>
+ <param name="job"></param>
+</member>
+</members>
+</doc>
